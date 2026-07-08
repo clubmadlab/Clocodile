@@ -1,0 +1,11 @@
+bool ConnectWiFi();
+void SetTime(int, int, int);
+void AdjustTime(int, int, int);
+void SetSSID(const char*);
+void SetPassword(const char*);
+void SetFont(int);
+void SetFx(int);
+bool ToggleDisplay();
+void SetZone(int);
+void LoadSettings();
+void SaveSettings();

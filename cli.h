@@ -1,0 +1,2 @@
+void InitCLI();
+void DoCLI();

@@ -1,0 +1,11 @@
+void InitAllDisplays();
+void InitDisplay(uint);
+void DisplayOn(uint);
+void DisplayOff(uint);
+void HighlightOn(uint);
+void HighlightOff(uint);
+void ClearDisplay(uint, uint);
+void DrawChar(uint, int, int, int, int, const uint16_t*);
+void DrawImage(uint, uint16_t*);
+void ClearImage(uint);
+void TransitionImage(uint, uint, uint16_t*, uint16_t*);
